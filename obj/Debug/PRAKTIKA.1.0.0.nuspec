@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PRAKTIKA</id>
+    <version>1.0.0</version>
+    <authors>PRAKTIKA</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="8e0be3da9fc91df54408f9b8c1080830bd914397" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="8.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\Downloads\PRAKTIKA\PRAKTIKA\bin\Debug\net8.0-windows\PRAKTIKA.runtimeconfig.json" target="lib\net8.0-windows7.0\PRAKTIKA.runtimeconfig.json" />
+    <file src="E:\Downloads\PRAKTIKA\PRAKTIKA\bin\Debug\net8.0-windows\PRAKTIKA.dll" target="lib\net8.0-windows7.0\PRAKTIKA.dll" />
+  </files>
+</package>
